@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 from glob import glob
 
 
@@ -30,6 +32,6 @@ def zh_ch2en_us(files):
 
 
 if __name__ == '__main__':
-    path = glob('*.md')
+    path = glob('*.txt')
     print(path)
     zh_ch2en_us(path)
